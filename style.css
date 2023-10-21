@@ -1,13 +1,15 @@
 body {
     font-family: Arial, sans-serif;
-    background: #33CCCC; /* Fallback */
-    animation: color 5s infinite linear;
-    
+    min-height: 100vh;
+    background: url(./Background_pic.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 h1 {
     text-align: center;
     text-decoration: underline;
+    color: antiquewhite;
 }
 
 .input-section {
