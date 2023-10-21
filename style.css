@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&family=Orbitron:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;1,100;1,200;1,300;1,400;1,500;1,600&family=Roboto+Serif:ital,opsz,wght@1,8..144,100&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: Poppins;
     min-height: 100vh;
     background: url(./Background_pic.jpg);
     background-size: cover;
@@ -8,9 +12,12 @@ body {
 
 h1 {
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     color: antiquewhite;
+    font-size: 50px;
+    border: none;
 }
+
 
 .input-section {
     margin-bottom: 20px;
@@ -28,10 +35,18 @@ h1 {
     height: 1cm;
     border-radius: 8px;
     margin: 0.5cm;
+    background: lightgray;
 }
 
 #title{
     text-indent: 10px;
+}
+
+#content{
+    justify-content: center;
+    align-items: center;
+    text-indent: 10px;
+    border-top: 10px;
 }
 
 .preview {
@@ -77,12 +92,13 @@ h1 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     padding: 20px;
     margin-bottom: 20px;
-    background-image: url("pic.jpg");
-    /* Replace with the path to yourimage */
     background-size: cover;
     background-position: center;
     overflow-y: scroll;
-
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgb(255, 255, 255, .1);
 }
 
 .card-header {
@@ -100,11 +116,3 @@ h1 {
 }
 
 
-@keyframes color {
-    0%   { background: #33CCCC; }
-    20%  { background: #33CC36; }
-    40%  { background: #B8CC33; }
-    60%  { background: #FCCA00; }
-    80%  { background: #33CC36; }
-    100% { background: #33CCCC; }
-  }
